@@ -19,9 +19,9 @@ app.use(cors());
 
 //Objeto( tabela com os preços)
 const precos = {
-    bicicleta: 0.75, // preço por km para bicicleta
-    carro: 0.25, // preço por km para carro
-    drone: 1.20 // preço por km para drone
+    bicicleta: 2.30, // preço por km para bicicleta
+    carro: 10.00, // preço por km para carro
+    drone: 25.00 // preço por km para drone
 }
 
 // Definindo uma rota de API tipo POST 
